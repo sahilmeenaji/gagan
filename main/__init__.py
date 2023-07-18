@@ -12,12 +12,12 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = []
+API_ID = 24490919
+API_HASH = "d1b3b15126c47dd4cb491553ee1db910"
+BOT_TOKEN = "6096499193:AAFyYO40peA2V9pl-PwY-1r-B_-Ue-vmxmc"
+SESSION = "BQC6JkIkHIf9kfu-QdCKLfGZpi8gnxgY_IyjkTBiKXNqRuVQyXG0bV_LRh_HFgj91EEkMU0sGlLC5T7N9NVzlfCfMG8025sqEwbJ8GoDLUV0eAegMvVFzmjNReePmgnoNwfRpeMFbM>
+FORCESUB = "amthespy"
+AUTH = 5842877813
 
 auth = config("AUTH", default=None, cast=int)
 ids = auth.split(",")
@@ -26,7 +26,7 @@ for id in ids:
     
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
-userbot = Client("saverestricted", session_string=SESSION, api_hash=API_HASH, api_id=API_ID) 
+userbot = Client("saverestricted", api_hash=API_HASH, api_id=API_ID) 
 
 try:
     userbot.start()
