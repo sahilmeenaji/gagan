@@ -12,12 +12,12 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = 24490919
-API_HASH = "d1b3b15126c47dd4cb491553ee1db910"
-BOT_TOKEN = "6096499193:AAFyYO40peA2V9pl-PwY-1r-B_-Ue-vmxmc"
-SESSION = "BQC6JkIkHIf9kfu-QdCKLfGZpi8gnxgY_IyjkTBiKXNqRuVQyXG0bV_LRh_HFgj91EEkMU0sGlLC5T7N9NVzlfCfMG8025sqEwbJ8GoDLUV0eAegMvVFzmjNReePmgnoNwfRpeMFbMv4V26a-AZIGRUJsQr2S8VAmFoBY-zxvkv8u6Hs4a5p-P_PXyutZDPSNn-bfrrqVxpGCi8QpqQjPaCfo-xnDWExz4TWFIJ6X6mZ8s-kRCNvmrV0pGvLFojD4tqUAA54A2qI0dv04GlcPumYPiNCGQPCYQdFY4LiRHKPkjBHh0xWsRv7SN2pHrRxd1-_3o1QbZPYjUzyH_PavVAOAAAAAXTGvwYA"
-FORCESUB = "amthespy"
-AUTH = 5842877813
+API_ID = 29434441
+API_HASH = "5cfd6614a8968694050c1e2fdd3c05ad"
+BOT_TOKEN = "6429688994:AAGJ_veDA_N6cepKD1vh2iUqEFwQiRyaCcc"
+SESSION = "BQBFudqDWjzYQUkT0gKA27TVnCbpBQkxR9qaNgWnxls5L1jsE-le5Fz_r770vprxX0TAx_Z528LMAU_2zTnICrzc63b1iCQ04XCb7AdgS2BoXmWtPwGFKcW-CNbmJ1FTsBN8fLnms0g7LLrfNY0mquU3Vszq3mNRAode1HTGQ-Fb5csJqhjgLmC1p965MT2Wrxb9TqvzYm6Ge9ZsWo8eSSQ8cpqIgurrKxTQTWQYZO4yvHhNo6ZdVlTHWFPRl6KKer51_RFGXwnVHFC-Ll5JsBIN7CEbgUuAwbUH3HkVK8A4JEH2nqjyHfoh5PZey-NpH1aSDUw8koB-YSBCglIRD2GqSDTF5QA"
+FORCESUB = "batchingupdate"
+AUTH = 1211418085
 
 auth = config("AUTH", default=None, cast=int)
 ids = auth.split(",")
